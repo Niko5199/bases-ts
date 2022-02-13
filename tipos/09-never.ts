@@ -13,14 +13,12 @@
    * retornar nuestra funcion.
    *
    */
-
-  const error = (message: string): never => {
-    throw new Error(`Error: ${message}`);
-  };
-
-  const error2 = (message: string): never | number => {
-    if (false) throw new Error(`Error: ${message}`);
-    return 1;
-  };
-  error('Ocurrio un error');
+  // const error = (message: string): never => {
+  //   throw new Error(`Error: ${message}`);
+  // };
+  // const error2 = (message: string): never | number => {
+  //   if (false) throw new Error(`Error: ${message}`);
+  //   return 1;
+  // };
+  // error('Ocurrio un error');
 })();

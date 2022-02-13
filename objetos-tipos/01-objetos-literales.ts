@@ -39,4 +39,5 @@
     age: 60,
     powers: ['speed'],
   };
+  console.log(flash);
 })();

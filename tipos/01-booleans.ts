@@ -6,4 +6,7 @@
   isSuperman = true && false;
 
   console.log({ isSuperman });
+
+  let hi = 'Prueba';
+  console.log({ hi });
 })();
